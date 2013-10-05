@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "padraoVC.h"
 
-@interface ViewController : padraoVC
+@interface ViewController : padraoVC 
 
 @end
