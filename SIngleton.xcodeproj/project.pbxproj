@@ -21,6 +21,9 @@
 		BA427AA41800842B000CBFDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA427A861800842B000CBFDA /* UIKit.framework */; };
 		BA427AAC1800842B000CBFDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA427AAA1800842B000CBFDA /* InfoPlist.strings */; };
 		BA427AAE1800842B000CBFDA /* SIngletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA427AAD1800842B000CBFDA /* SIngletonTests.m */; };
+		BA427AB918008447000CBFDA /* MinhaSessao.m in Sources */ = {isa = PBXBuildFile; fileRef = BA427AB818008447000CBFDA /* MinhaSessao.m */; };
+		BA427ABC180085A3000CBFDA /* DadosPessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = BA427ABB180085A3000CBFDA /* DadosPessoa.m */; };
+		BA427ABF180088DF000CBFDA /* padraoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA427ABE180088DF000CBFDA /* padraoVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		BA427AA91800842B000CBFDA /* SIngletonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SIngletonTests-Info.plist"; sourceTree = "<group>"; };
 		BA427AAB1800842B000CBFDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA427AAD1800842B000CBFDA /* SIngletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIngletonTests.m; sourceTree = "<group>"; };
+		BA427AB718008447000CBFDA /* MinhaSessao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinhaSessao.h; sourceTree = "<group>"; };
+		BA427AB818008447000CBFDA /* MinhaSessao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinhaSessao.m; sourceTree = "<group>"; };
+		BA427ABA180085A3000CBFDA /* DadosPessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DadosPessoa.h; sourceTree = "<group>"; };
+		BA427ABB180085A3000CBFDA /* DadosPessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DadosPessoa.m; sourceTree = "<group>"; };
+		BA427ABD180088DF000CBFDA /* padraoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = padraoVC.h; sourceTree = "<group>"; };
+		BA427ABE180088DF000CBFDA /* padraoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = padraoVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,12 @@
 				BA427A981800842B000CBFDA /* ViewController.m */,
 				BA427A9A1800842B000CBFDA /* Images.xcassets */,
 				BA427A891800842B000CBFDA /* Supporting Files */,
+				BA427AB718008447000CBFDA /* MinhaSessao.h */,
+				BA427AB818008447000CBFDA /* MinhaSessao.m */,
+				BA427ABA180085A3000CBFDA /* DadosPessoa.h */,
+				BA427ABB180085A3000CBFDA /* DadosPessoa.m */,
+				BA427ABD180088DF000CBFDA /* padraoVC.h */,
+				BA427ABE180088DF000CBFDA /* padraoVC.m */,
 			);
 			path = SIngleton;
 			sourceTree = "<group>";
@@ -249,9 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA427ABC180085A3000CBFDA /* DadosPessoa.m in Sources */,
+				BA427ABF180088DF000CBFDA /* padraoVC.m in Sources */,
 				BA427A991800842B000CBFDA /* ViewController.m in Sources */,
 				BA427A931800842B000CBFDA /* AppDelegate.m in Sources */,
 				BA427A8F1800842B000CBFDA /* main.m in Sources */,
+				BA427AB918008447000CBFDA /* MinhaSessao.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

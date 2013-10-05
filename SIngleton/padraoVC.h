@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  padraoVC.h
 //  SIngleton
 //
 //  Created by Jorge Luis Beckel Flor on 10/5/13.
@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "padraoVC.h"
+#import "MinhaSessao.h"
 
-@interface ViewController : padraoVC
-
+@interface padraoVC : UIViewController
+@property (nonatomic, retain) IBOutlet MinhaSessao *iSession;
 @end

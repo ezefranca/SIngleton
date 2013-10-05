@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DadosPessoa.h
 //  SIngleton
 //
 //  Created by Jorge Luis Beckel Flor on 10/5/13.
@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "padraoVC.h"
 
-@interface ViewController : padraoVC
+@interface DadosPessoa : padraoVC
+- (IBAction)doFechar:(id)sender;
 
 @end
